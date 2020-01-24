@@ -13,11 +13,16 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 1440px;
   height: 1000px;
-  background-color: #141B1C;
-  margin: 0 auto;
-  padding: 112px 120px 119px 147px;
+  background-color: #000;
+  margin: auto;
 }
 
 .price-card {
@@ -78,7 +83,7 @@ html {
   margin: 0;
   font-weight: 300;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 24px;
   text-align: center;
 }
 
