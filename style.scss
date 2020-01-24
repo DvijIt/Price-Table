@@ -25,6 +25,28 @@ html {
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     overflow: hidden;
 
+    &__green {
+      .price-card {
+        &__title {
+          width: 100px;
+        }
+      }
+    }
+    &__blue {
+      .price-card {
+        &__title {
+          width: 164px;
+        }
+      }
+    }
+    &__orange {
+      .price-card {
+        &__title {
+          width: 176px;
+        }
+      }
+    }
+
     &:first-child {
       margin-left: 0;
     }
@@ -45,8 +67,9 @@ html {
     }
 
     &__title {
-      margin: 0;
-      font-weight: bold;
+      display: block;
+      margin: 0 auto;
+      font-weight: 700;
       font-size: 35px;
       line-height: 43px;
       text-align: center;
@@ -57,7 +80,7 @@ html {
         margin: 0;
         font-weight: 300;
         font-size: 20px;
-        line-height: 20px;
+        line-height: 22px;
         text-align: center;
       }
     }
@@ -88,7 +111,7 @@ html {
 
     &__description {
       margin: 0 auto;
-      width: 327px;
+      width: 328px;
       margin-top: 39px;
       font-weight: 300;
       font-size: 15px;
@@ -151,12 +174,12 @@ html {
 
     &__order-btn {
       display: block;
-      width: 154px;
+      width: 155px;
       height: 40px;
       margin: 37px auto 0;
       border-radius: 20px;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 17px;
       text-align: center;
       color: #FFFFFF;
