@@ -11,7 +11,6 @@ html {
 .price {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 1440px;
   height: 1000px;
   background-color: #000;
@@ -20,6 +19,7 @@ html {
   &-card {
     position: relative;
     width: 380px;
+    height: 770px;
     padding: 30px 0 42px;
     margin-left: 15px;
     background-color: #334247;
@@ -81,7 +81,7 @@ html {
         margin: 0;
         font-weight: 300;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 23px;
         text-align: center;
       }
     }
