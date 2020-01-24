@@ -1,0 +1,35 @@
+.about {
+  padding: 62px 163px 87px 164px;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    padding: 40px 25px;
+    text-align: center;
+    width: 343px;
+  }
+
+  &__figure {
+    margin: 0;
+  }
+
+  &__image-caption {
+    margin: 0;
+    margin-top: 36px;
+    min-height: 90px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  &__link {
+    display: block;
+    margin: 0;
+    margin-top: 33px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #3041C4;
+  }
+}
