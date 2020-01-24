@@ -51,13 +51,15 @@ html {
       line-height: 43px;
       text-align: center;
       color: #fff;
-    }
-
-    &__subtitle {
-      margin: 0;
-      font-weight: 300;
-      font-size: 18px;
-      text-align: center;
+      
+      span {
+        display: block;
+        margin: 0;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+      }
     }
 
     &__price {
@@ -85,16 +87,16 @@ html {
     }
 
     &__description {
-      margin: 0;
+      margin: 0 auto;
+      width: 327px;
       margin-top: 39px;
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
       text-align: center;
-      padding: 0 26px;
     }
 
-    &__option-list {
+    &__options-list {
       margin: 0;
       padding: 0;
       margin-top: 42px;
