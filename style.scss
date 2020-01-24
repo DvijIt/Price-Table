@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.price {
+  display: flex;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141B1C;
+  margin: 0 auto;
+  padding: 112px 120px 119px 147px;
+
+  &-card {
+    position: relative;
+    width: 380px;
+    padding: 30px 0 42px;
+    margin-left: 15px;
+    background-color: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    overflow: hidden;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &__badge {
+      position: absolute;
+      right: -30px;
+      width: 147px;
+      height: 25px;
+      background: #DC3F45;
+      transform: rotate(45deg);
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+
+    &__title {
+      margin: 0;
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+      color: #fff;
+    }
+
+    &__subtitle {
+      margin: 0;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    &__price {
+      margin-top: 36px;
+      height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #5BB189;
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 67px;
+
+      &-green {
+        background: #5BB189;
+      }
+
+      &-blue {
+        background: #3A6BA5;
+      }
+
+      &-red {
+        background: #EC632A;
+      }
+    }
+
+    &__description {
+      margin: 0;
+      margin-top: 39px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      padding: 0 26px;
+    }
+
+    &__option-list {
+      margin: 0;
+      padding: 0;
+      margin-top: 42px;
+      list-style-type: none;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+
+      &-green {
+        li {
+          &::before {
+            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+          }
+        }
+      }
+
+      &-blue {
+        li {
+          &::before {
+            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+          }
+        }
+      }
+
+      &-red {
+        li {
+          &::before {
+            background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+          }
+        }
+      }
+
+      li {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 22px;
+
+        &::before {
+          content: '';
+          width: 15px;
+          height: 13px;
+          margin-right: 21px;
+        }
+
+        &:nth-child(odd) {
+          background-color: #2A3438;
+        }
+      }
+    }
+
+    &__order-btn {
+      display: block;
+      width: 154px;
+      height: 40px;
+      margin: 37px auto 0;
+      border-radius: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      &-green {
+        background: #5BB189;
+      }
+
+      &-blue {
+        background: #3A6BA5;
+      }
+
+      &-red {
+        background: #EC632A;
+      }
+    }
+  }
+}
