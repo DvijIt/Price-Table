@@ -20,6 +20,7 @@ html {
   height: 1000px;
   background-color: #000;
   margin: auto;
+  padding-top: 50px;
 }
 
 .price-card {
@@ -69,6 +70,7 @@ html {
 .price-card__title {
   display: block;
   margin: 0 auto;
+  height: 64px;
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
@@ -81,7 +83,7 @@ html {
   margin: 0;
   font-weight: 300;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
   text-align: center;
 }
 
